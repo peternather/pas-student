@@ -6,7 +6,7 @@ Načítanie v Colabe:
 
 ```python
 import pandas as pd
-DATA = "https://raw.githubusercontent.com/<ORG>/pas/main/data/shopit/"   # nastaví vyučujúci
+DATA = "https://raw.githubusercontent.com/peternather/pas-student/main/data/shopit/"
 sessions = pd.read_csv(DATA + "sessions.csv", parse_dates=["start_ts"])
 ```
 
